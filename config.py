@@ -1,10 +1,10 @@
 from monai.transforms import (Compose, RandFlipd,  RandShiftIntensityd)
 
 
-TRAIN_FILENAME = "/home/xinglab11/Praveen/PA_US/Dataset_train_13_7/train/train_set.npz"
-VALID_FILENAME = "/home/xinglab11/Praveen/PA_US/Dataset_train_13_7/val/valid_set.npz"
+TRAIN_FILENAME = "/home/train/train_set.npz"
+VALID_FILENAME = "/home/val/valid_set.npz"
 MODEL_NAME = "best_metric_model.pth"
-MODEL_DIR  = "/home/xinglab11/Praveen/PA_US/model"
+MODEL_DIR  = "/home/PA_US/model"
 
 DEVICE_IDX = 0
 MAX_ITERATIONS = 20000
